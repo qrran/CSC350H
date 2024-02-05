@@ -23,8 +23,8 @@ namespace HW1 // should be the same name as directory
         static void Main(string[] args)
         {
             // loop while there's more input
-            // string input = Console.ReadLine();
-            // while ( /* input is not 'q'  */ )
+            string input = Console.ReadLine();
+            while ( /* input is not 'q'  */ )
             {
                 // Add your code between this comment
                 // and the comment below. You can of
@@ -38,22 +38,21 @@ namespace HW1 // should be the same name as directory
                 // deal 2 cards each to 4 players (deal properly, dealing
                 // the first card to each player before dealing the
                 // second card to each player)
-                string[] players = { "player1", "player2", "player3", "player4" };
+
+                // string[] players = { "player1", "player2", "player3", "player4" };
                 Card[] player1 = new Card[2];
                 Card[] player2 = new Card[3];
                 Card[] player3 = new Card[3];
                 Card[] player4 = new Card[2];
-
                 Card dealtCard;
 
                 for (int i = 0; i < 2; i++) //distrubute 2 cards to each player
                 {
-                    for (int j = 0; j < players.Length; j++) // each player receive cards by order
+                    for (int j = 0; j < 4; j++) // each player receive cards by order
                     {
                         dealtCard = deck.TakeTopCard();
                         Card cardName = new Card(dealtCard.Rank, dealtCard.Suit);
-                        string cardNameString = $"{dealtCard.Rank} {dealtCard.Suit}";
-                        // $"{dealtCard.Rank} {dealtCard.Suit}";
+                        // string cardNameString = $"{dealtCard.Rank} {dealtCard.Suit}";
                         switch (j)
                         {
                             case 0:
@@ -71,11 +70,10 @@ namespace HW1 // should be the same name as directory
                             default:
                                 break;
                         }
-                        Console.WriteLine($"{players[j]} received: {cardName}");
-                        Console.WriteLine($"{players[j]} received: {cardNameString}");
-                        // Console.WriteLine($"Is the card face up? {dealtCard.FaceUp}"); // Output: Is the card face up? False
+                        // Console.WriteLine($"{players[j]} received: {cardName}");
+                        // Console.WriteLine($"{players[j]} received: {cardNameString}");
                     }
-                    Console.WriteLine("-----------------------------");
+                    // Console.WriteLine("-----------------------------");
                 }
 
                 // deal 1 more card to players 2 and 3
@@ -85,7 +83,6 @@ namespace HW1 // should be the same name as directory
                     {
                         dealtCard = deck.TakeTopCard();
                         Card cardName = new Card(dealtCard.Rank, dealtCard.Suit);
-                        // string cardName = $"{dealtCard.Rank} {dealtCard.Suit}";
                         switch (j)
                         {
                             case 1:
@@ -95,55 +92,70 @@ namespace HW1 // should be the same name as directory
                                 player3[i] = cardName;
                                 break;
                         }
-                        Console.WriteLine($"{players[j]} received: {cardName}");
+                        // Console.WriteLine($"{players[j]} received: {cardName}");
                     }
-                    Console.WriteLine("-----------------------------");
+                    // Console.WriteLine("-----------------------------");
                 }
 
                 // flip all the cards over
-                // //////////////////////////////////////////////////////////////
+                // //////////////////////////////////////////////////////////////)
                 for (int i = 0; i < player1.Length; i++)
                 {
                     player1[i].FlipOver();
-                    Console.WriteLine($"{player1[i].FaceUp}");
+                }
+                for (int i = 0; i < player2.Length; i++)
+                {
+                    player2[i].FlipOver();
+                }
+                for (int i = 0; i < player3.Length; i++)
+                {
+                    player3[i].FlipOver();
+                }
+                for (int i = 0; i < player4.Length; i++)
+                {
+                    player4[i].FlipOver();
                 }
                 ////////////////////////////////////////////////////////////
+
                 // print the cards for player 1
                 Console.WriteLine("Player 1 has: ");
                 foreach (Card cards in player1)
                 {
-                    Console.WriteLine("Test!!!");
-                    string cardNameString = $"{cards.Rank} {cards.Suit}"; //??
+                    // Console.WriteLine("Test!!!");
+                    string cardNameString = $"{cards.Rank} {cards.Suit}"; //?? !!!!!!!
                     Console.WriteLine(cardNameString);
                 }
                 Console.WriteLine("-----------------------------");
 
                 // print the cards for player 2
                 Console.WriteLine("Player 2 has: ");
-                foreach (Card cardName in player2)
+                foreach (Card cards in player2)
                 {
-                    Console.WriteLine($"{cardName}");
+                    string cardNameString = $"{cards.Rank} {cards.Suit}";
+                    Console.WriteLine($"{cardNameString}");
                 }
                 Console.WriteLine("-----------------------------");
 
                 // print the cards for player 3
                 Console.WriteLine("Player 3 has: ");
-                foreach (Card cardName in player3)
+                foreach (Card cards in player3)
                 {
-                    Console.WriteLine($"{cardName}");
+                    string cardNameString = $"{cards.Rank} {cards.Suit}";
+                    Console.WriteLine($"{cardNameString}");
                 }
                 Console.WriteLine("-----------------------------");
 
                 // print the cards for player 4
                 Console.WriteLine("Player 4 has: ");
-                foreach (Card cardName in player4)
+                foreach (Card cards in player4)
                 {
-                    Console.WriteLine($"{cardName}");
+                    string cardNameString = $"{cards.Rank} {cards.Suit}";
+                    Console.WriteLine($"{cardNameString}");
                 }
 
                 // Don't add or modify any code below
                 // this comment
-                // input = Console.ReadLine();
+                input = Console.ReadLine();
             }
         }
     }
