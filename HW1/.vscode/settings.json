@@ -1,6 +1,0 @@
-{
-  "dotnet.defaultSolution": "HW1.sln",
-  "[csharp]": {
-    "editor.defaultFormatter": "csharpier.csharpier-vscode"
-  }
-}
