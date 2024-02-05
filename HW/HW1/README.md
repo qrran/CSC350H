@@ -1,4 +1,16 @@
-## 1. .csproj
+# Output
+
+<img width="1552" alt="Card Distribution Screenshot" src="HW/HW1/HW1a.png">
+
+## 1. Run the project
+
+```cs
+$cd HW
+$cd HW1
+$dotnet run HW1a.cs
+```
+
+### Configuration: .csproj
 
 - ```cs
     <ItemGroup>
@@ -11,14 +23,16 @@
 
 ```cs
   Card myCard = new Card("Ace", "Hearts");
-  Console.WriteLine($"Is the card face up? {myCard.IsFaceUp}");
+  Console.WriteLine($"Is the card face up? {myCard.FaceUp}");
    // Output: Is the card face up? False
 ```
 
 ```cs
 myCard.FlipOver();
-Console.WriteLine($"Is the card face up? {myCard.IsFaceUp}");
+Console.WriteLine($"Is the card face up? {myCard.FaceUp}");
 // Output: Is the card face up? True
 ```
+
+- if an object in the array, use array[index].FaceUp
 
 ### Check the type, make sure type is right to use the properties/method
