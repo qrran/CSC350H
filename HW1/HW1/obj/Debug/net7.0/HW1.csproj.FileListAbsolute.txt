@@ -1,0 +1,17 @@
+/Users/ld/Desktop/HW1/HW1/obj/Debug/net7.0/HW1.csproj.AssemblyReference.cache
+/Users/ld/Desktop/HW1/HW1/obj/Debug/net7.0/HW1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ld/Desktop/HW1/HW1/obj/Debug/net7.0/HW1.AssemblyInfoInputs.cache
+/Users/ld/Desktop/HW1/HW1/obj/Debug/net7.0/HW1.AssemblyInfo.cs
+/Users/ld/Desktop/HW1/HW1/obj/Debug/net7.0/HW1.csproj.CoreCompileInputs.cache
+/Users/ld/Desktop/HW1/HW1/obj/Debug/net7.0/HW1.genruntimeconfig.cache
+/Users/ld/Desktop/HW1/HW1/bin/Debug/net7.0/Cards2.dll
+/Users/ld/Desktop/HW1/HW1/obj/Debug/net7.0/HW1.csproj.CopyComplete
+/Users/ld/Desktop/HW1/HW1/bin/Debug/net7.0/HW1
+/Users/ld/Desktop/HW1/HW1/bin/Debug/net7.0/HW1.deps.json
+/Users/ld/Desktop/HW1/HW1/bin/Debug/net7.0/HW1.runtimeconfig.json
+/Users/ld/Desktop/HW1/HW1/bin/Debug/net7.0/HW1.dll
+/Users/ld/Desktop/HW1/HW1/bin/Debug/net7.0/HW1.pdb
+/Users/ld/Desktop/HW1/HW1/obj/Debug/net7.0/HW1.dll
+/Users/ld/Desktop/HW1/HW1/obj/Debug/net7.0/refint/HW1.dll
+/Users/ld/Desktop/HW1/HW1/obj/Debug/net7.0/HW1.pdb
+/Users/ld/Desktop/HW1/HW1/obj/Debug/net7.0/ref/HW1.dll
