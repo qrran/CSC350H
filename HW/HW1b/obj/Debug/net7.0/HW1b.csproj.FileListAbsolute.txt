@@ -1,0 +1,15 @@
+/Users/ld/Desktop/CSC350H/HW/HW1b/bin/Debug/net7.0/HW1b
+/Users/ld/Desktop/CSC350H/HW/HW1b/bin/Debug/net7.0/HW1b.deps.json
+/Users/ld/Desktop/CSC350H/HW/HW1b/bin/Debug/net7.0/HW1b.runtimeconfig.json
+/Users/ld/Desktop/CSC350H/HW/HW1b/bin/Debug/net7.0/HW1b.dll
+/Users/ld/Desktop/CSC350H/HW/HW1b/bin/Debug/net7.0/HW1b.pdb
+/Users/ld/Desktop/CSC350H/HW/HW1b/obj/Debug/net7.0/HW1b.csproj.AssemblyReference.cache
+/Users/ld/Desktop/CSC350H/HW/HW1b/obj/Debug/net7.0/HW1b.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ld/Desktop/CSC350H/HW/HW1b/obj/Debug/net7.0/HW1b.AssemblyInfoInputs.cache
+/Users/ld/Desktop/CSC350H/HW/HW1b/obj/Debug/net7.0/HW1b.AssemblyInfo.cs
+/Users/ld/Desktop/CSC350H/HW/HW1b/obj/Debug/net7.0/HW1b.csproj.CoreCompileInputs.cache
+/Users/ld/Desktop/CSC350H/HW/HW1b/obj/Debug/net7.0/HW1b.dll
+/Users/ld/Desktop/CSC350H/HW/HW1b/obj/Debug/net7.0/refint/HW1b.dll
+/Users/ld/Desktop/CSC350H/HW/HW1b/obj/Debug/net7.0/HW1b.pdb
+/Users/ld/Desktop/CSC350H/HW/HW1b/obj/Debug/net7.0/HW1b.genruntimeconfig.cache
+/Users/ld/Desktop/CSC350H/HW/HW1b/obj/Debug/net7.0/ref/HW1b.dll
