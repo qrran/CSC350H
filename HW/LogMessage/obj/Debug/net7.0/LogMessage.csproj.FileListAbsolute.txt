@@ -1,0 +1,5 @@
+/Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/LogMessage.csproj.AssemblyReference.cache
+/Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/LogMessage.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/LogMessage.AssemblyInfoInputs.cache
+/Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/LogMessage.AssemblyInfo.cs
+/Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/LogMessage.csproj.CoreCompileInputs.cache

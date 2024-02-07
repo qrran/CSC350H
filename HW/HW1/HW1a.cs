@@ -23,7 +23,7 @@ namespace HW1 // should be the same name as directory
         static void Main(string[] args)
         {
             // loop while there's more input
-            // string input = Console.ReadLine();
+            string input = Console.ReadLine();
             // while ( /* input is not 'q'  */ )
             {
                 // Add your code between this comment
@@ -39,7 +39,6 @@ namespace HW1 // should be the same name as directory
                 // the first card to each player before dealing the
                 // second card to each player)
 
-                // string[] players = { "player1", "player2", "player3", "player4" };
                 Card[] player1 = new Card[2];
                 Card[] player2 = new Card[3];
                 Card[] player3 = new Card[3];
@@ -155,7 +154,7 @@ namespace HW1 // should be the same name as directory
 
                 // Don't add or modify any code below
                 // this comment
-                // input = Console.ReadLine();
+                input = Console.ReadLine();
             }
         }
     }
