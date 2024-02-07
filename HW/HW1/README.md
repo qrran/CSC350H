@@ -1,6 +1,6 @@
 # HW1a Output
 
-<img width="1552" alt="Card Distribution Screenshot" src="https://github.com/qrran/CSC350H/blob/main/HW/HW1/HW1a.png">
+<img width="1552" alt="Card Distribution Screenshot" src="https://github.com/qrran/CSC350H/blob/main/HW/HW1/output.png">
 
 ## 1. Run the project
 
