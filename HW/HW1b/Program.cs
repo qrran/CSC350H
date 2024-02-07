@@ -14,7 +14,27 @@ namespace Exercise10
             Console.WriteLine("3 - Options");
             Console.WriteLine("4 - Quit");
             Console.WriteLine("**************");
-            Console.Write(">");
+
+            // user input
+            Console.WriteLine("Enter your choice: ");
+            int choices = int.Parse(Console.ReadLine());
+
+            switch (choices)
+            {
+                case 1:
+                    Console.WriteLine("-----New Game-----");
+                    break;
+                case 2:
+                    Console.WriteLine("-----Loading Game-----");
+                    break;
+                case 3:
+                    Console.WriteLine("-----Options-----");
+                    break;
+                case 4:
+                    Console.WriteLine("-----Quit-----");
+                    break;
+            }
+
         }
     }
 }
