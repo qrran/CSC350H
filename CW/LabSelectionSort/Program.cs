@@ -15,11 +15,6 @@ namespace SelectionSort
 
         // method here
 
-        // public class Lab4Q1 // class name
-        // {
-        //     int minValue;
-        //     int minIndex;
-
         static private void SelectionSort(ref int[] arr1)
         {
             int minValue;
@@ -50,6 +45,5 @@ namespace SelectionSort
             b = temp;
         }
 
-        // }
     }
 }

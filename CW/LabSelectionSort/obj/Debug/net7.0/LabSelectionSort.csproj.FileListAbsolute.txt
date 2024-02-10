@@ -3,13 +3,11 @@
 /Users/ld/Desktop/CSC350H/CW/LabSelectionSort/bin/Debug/net7.0/LabSelectionSort.runtimeconfig.json
 /Users/ld/Desktop/CSC350H/CW/LabSelectionSort/bin/Debug/net7.0/LabSelectionSort.dll
 /Users/ld/Desktop/CSC350H/CW/LabSelectionSort/bin/Debug/net7.0/LabSelectionSort.pdb
-/Users/ld/Desktop/CSC350H/CW/LabSelectionSort/bin/Debug/net7.0/Cards2.dll
 /Users/ld/Desktop/CSC350H/CW/LabSelectionSort/obj/Debug/net7.0/LabSelectionSort.csproj.AssemblyReference.cache
 /Users/ld/Desktop/CSC350H/CW/LabSelectionSort/obj/Debug/net7.0/LabSelectionSort.GeneratedMSBuildEditorConfig.editorconfig
 /Users/ld/Desktop/CSC350H/CW/LabSelectionSort/obj/Debug/net7.0/LabSelectionSort.AssemblyInfoInputs.cache
 /Users/ld/Desktop/CSC350H/CW/LabSelectionSort/obj/Debug/net7.0/LabSelectionSort.AssemblyInfo.cs
 /Users/ld/Desktop/CSC350H/CW/LabSelectionSort/obj/Debug/net7.0/LabSelectionSort.csproj.CoreCompileInputs.cache
-/Users/ld/Desktop/CSC350H/CW/LabSelectionSort/obj/Debug/net7.0/LabSelectionSort.csproj.CopyComplete
 /Users/ld/Desktop/CSC350H/CW/LabSelectionSort/obj/Debug/net7.0/LabSelectionSort.dll
 /Users/ld/Desktop/CSC350H/CW/LabSelectionSort/obj/Debug/net7.0/refint/LabSelectionSort.dll
 /Users/ld/Desktop/CSC350H/CW/LabSelectionSort/obj/Debug/net7.0/LabSelectionSort.pdb
