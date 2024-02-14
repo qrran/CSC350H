@@ -6,57 +6,30 @@ namespace LogMessage
 {
     class Program
     {
-        // static void Main(string[] args)
-        // {
-
-        // }
-        public class LogMessage
+        static void Main(string[] args)
         {
-            private String machineId;
-            private String description;
+            string[] testCases = new string[8]
+            {"disk",
+            "error on disk",
+            "error on /dev/disk disk",
+            "error on disk DSK1",
+            "DISK",
+            "error on disk3",
+            "error on /dev/disk",
+            "diskette"};
 
-            ////////////// Part a /////////////////////////
-            public LogMessage(String message)
+            foreach (string message in testCases)
             {
-                String[] messageSeparate = message.Split(":");
-                machineId = messageSeparate[0];
-                description = messageSeparate[1];
-                // message = machineID + ":" + description;
-                // Console.WriteLine(message);
+                LogMessage log = new LogMessage(message); //create new object for each message
+                Console.WriteLine(log);
+
+                bool result = log.containsWord(log.getDescription());
+                Console.WriteLine(result);
+                // Console.WriteLine(containsWord(description));
+
             }
 
-            ///////////////// Part b ////////////////////////
-            // public Boolean containsWord(String keyword)
-            // {
-            //     String[] descriptionSeparate = description.Split(" ");
-            //     for (int i = 0; i < descriptionSeparate.Length; i++)
-            //     {
-            //         if (keyword == descriptionSeparate[i])
-            //             return true;
-            //     }
-            //     return false;
-            // }
 
-            ///////////////// Part b ////////////////////////
-            public Boolean containsWord(String keyword)
-            {
-                String[] descriptionSeparate = description.Split(" ");
-                foreach (String word in descriptionSeparate)
-                {
-                    if (word == keyword)
-                        return true;
-                }
-                return false;
-            }
-
-            public String getMachineId()
-            {
-                return machineId;
-            }
-            public String getDescription()
-            {
-                return description;
-            }
         }
     }
 }

@@ -3,3 +3,13 @@
 /Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/LogMessage.AssemblyInfoInputs.cache
 /Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/LogMessage.AssemblyInfo.cs
 /Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/LogMessage.csproj.CoreCompileInputs.cache
+/Users/ld/Desktop/CSC350H/HW/LogMessage/bin/Debug/net7.0/LogMessage
+/Users/ld/Desktop/CSC350H/HW/LogMessage/bin/Debug/net7.0/LogMessage.deps.json
+/Users/ld/Desktop/CSC350H/HW/LogMessage/bin/Debug/net7.0/LogMessage.runtimeconfig.json
+/Users/ld/Desktop/CSC350H/HW/LogMessage/bin/Debug/net7.0/LogMessage.dll
+/Users/ld/Desktop/CSC350H/HW/LogMessage/bin/Debug/net7.0/LogMessage.pdb
+/Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/LogMessage.dll
+/Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/refint/LogMessage.dll
+/Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/LogMessage.pdb
+/Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/LogMessage.genruntimeconfig.cache
+/Users/ld/Desktop/CSC350H/HW/LogMessage/obj/Debug/net7.0/ref/LogMessage.dll
