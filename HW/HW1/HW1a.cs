@@ -75,7 +75,7 @@ namespace HW1 // should be the same name as directory
                     // Console.WriteLine("-----------------------------");
                 }
 
-                // deal 1 more card to players 2 and 3
+                // players 2 and 3
                 for (int i = 2; i < 3; i++)
                 {
                     for (int j = 1; j < 3; j++) //distribute 2 cards in a round
